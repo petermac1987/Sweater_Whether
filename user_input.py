@@ -1,5 +1,3 @@
-import json
-
 class Sweater():
     """This program will take an input of temperature and return a True or
     False value based on who the user is, the temperature that they usually

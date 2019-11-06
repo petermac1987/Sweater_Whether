@@ -8,15 +8,6 @@ At its current state it is just a class with a few functions in it so that someo
 
 As one of my key projects I would like to present to future employers I do have ideas for what could be added in the future, but I don't have the skills quite yet.
 
-Possible Updates:
-Graphical interface,
-User accounts (very minimal data, username and whether you've worn a sweater),
-Ability to track on a calendar what was worn on each day,
-Graphical calendar that shows a small sprite image of what was worn,
-Very simple machine learning to gauge a comfortable temperature range per user,
-More silly responses,
-Able to pull data and give a report for a period of time, Maybe a graph of use of each sprite,
-
-I know the possibilities are endless and I will periodically update this for fun as I learn more and more.
-
-Thank you for stopping by!
+Current Version:
+Basic class for user input
+Multiple files for organization of data, main program, and user input
