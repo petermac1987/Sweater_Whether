@@ -42,23 +42,6 @@ class Sweater():
         else:
             print(self.person_name + ",  No, stop asking. It is " + str(self.temperature_value) +
                   " Fahrenheit\n")
-    # Write to txt file using JSON.
-    # At this point, the biggest issue is not being able to write multiple user data to the file.
-    # Every time I call this function it will overwrite the previous persons data.
-    def data_write(self):
-        self.data = {
-            'name': self.person_name,
-            'age': str(self.person_age),
-        }
-
-        with open('data.txt', 'w') as fp:
-            json.dump(self.data, fp, sort_keys=True, indent=4)
-
-    # Open user data from data.txt
-    def data_open(self):
-        with open('data.txt') as json_file:
-            data = json.load(json_file)
-            for p in data:
-                print('Name: ' + p['name'])
-                print('Age: ' + p['age'])
-                print(' ')
+    # I decided to keep this strictly Python for the next few terms. I want this project to showcase my abilities
+    # with this language and then another project for an alternate language. Once I'm more comfortable, I would like
+    # to research other languages to optimize my projects.
