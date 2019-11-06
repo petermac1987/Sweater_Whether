@@ -17,6 +17,6 @@ Very simple machine learning to gauge a comfortable temperature range per user,
 More silly responses,
 Able to pull data and give a report for a period of time, Maybe a graph of use of each sprite,
 
-I know the possibilities are endless and I will periodically update this for fun as I learn more and more.a
+I know the possibilities are endless and I will periodically update this for fun as I learn more and more.
 
 Thank you for stopping by!
